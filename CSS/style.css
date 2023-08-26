@@ -117,7 +117,6 @@ nav .navegation {
 
 section {
     display: flex;
-    height: 25.4375rem;
     padding: 6rem 0rem;
 }
 
@@ -172,7 +171,7 @@ section {
 .box {
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 1rem;
 }
 
 .box h2 {
@@ -194,4 +193,66 @@ section {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
+}
+
+/* container-img */
+
+.container-img {
+    position: relative;
+    bottom: 6rem;
+    padding: 6rem 0rem;
+}
+
+.title-container {
+    border-radius: 1rem;
+    background: rgba(142, 36, 36, 0.05);
+    padding: 0.25rem 0.75rem;
+}
+
+.container-img img {
+    width: 76rem;
+    height: 25rem;
+}
+
+/* container-vagas */
+.container-vagas {
+    position: relative;
+    bottom: 15rem;
+    width: 80rem;
+    margin: 0 auto;
+}
+
+.box-vaga {
+    display: flex;
+    width: 80rem;
+    padding: 0rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.box-content {
+    display: flex;
+    width: 48rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.box-vaga h3 {
+    color: #101828;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.vaga {
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid var(--gray-200, #EAECF0);
+    background: var(--base-white, #FFF);
 }
